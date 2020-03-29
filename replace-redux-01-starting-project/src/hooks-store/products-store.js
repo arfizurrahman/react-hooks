@@ -1,4 +1,4 @@
-import {intitStore, initStore} from './store';
+import { initStore} from './store';
 
 const configureStore = () => {
     const actions = {
@@ -16,7 +16,7 @@ const configureStore = () => {
         }
     };
 
-    intitStore(actions, {products: [
+    initStore(actions, {products: [
 		{
 			id: "p1",
 			title: "Red Scarf",
